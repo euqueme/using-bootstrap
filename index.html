@@ -1,143 +1,286 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Newsweek</title>
   </head>
   <body>
-    <header></header>
-    <section id="featured-stories">
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-    </section>
-    <section id="top-story">
-      <article class=""></article>
-      <section id="culture-travel">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-      </section>
-      <section id="more-stories">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
-      </section>
-    </section>
-    <section id="opinion">
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-    </section>
-    <section id="latest-news">
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-    </section>
-    <section id="in-the-mag">
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
+    <header class="page-header container-fluid">
+      <div class="header-top row">
+        <div class="col-md-4 d-none d-lg-inline">Date 2019</div>
+        <div class="header-middle col-6 col-md-4  flex-xs-6 ">
+          this is the middle
+        </div>
+        <div class="col-6 col-md-4 flex-xs-4 flex-xs-6 ai-c jc-fe">
+          Sign in Subscribe
+        </div>
+      </div>
+      <nav class="header-bottom container-fluid col-12 d-none d-lg-inline-flex">
+        <ul class="col-11 nav nav-fill">
+          <li class="nav-item"><a class="nav-link" href="#">U.S</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tech & Science</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Opinion</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+        </ul>
+        <input class="col-1" type="text" name="Search" value="Search" />
+      </nav>
+    </header>
+    <main class="row justify-content-center">
+      <div class="row col-lg-8 col-md-12 col-12 flex-md-row-reverse">
+        <section id="top-story" class="col-lg-6 col-md-6 col-12">
+          <h6>Top Story</h6>
+          <article class="">TS-1</article>
+          <div class="row flex-md-column-reverse ">
+            <section id="more-stories" class="col-12">
+              <h6>More Stories</h6>
+              <article class="">MS-1</article>
+              <article class="">MS-2</article>
+              <article class="">MS-3</article>
+              <article class="">MS-4</article>
+              <article class="">MS-5</article>
+              <article class="">MS-6</article>
+              <article class="">MS-7</article>
+              <article class="">MS-8</article>
+            </section>
+            <section id="culture-travel" class="row col-12">
+              <h6 class="col-12">Culture & travel</h6>
+              <article class="col-12 col-md-6">CT-1</article>
+              <article class="col-12 col-md-6">CT-2</article>
+              <article class="col-12 col-md-6">CT-3</article>
+              <article class="col-12 col-md-6">CT-4</article>
+            </section>
+          </div>
+        </section>
+        <section id="featured-stories" class="col-lg-6 col-md-6 col-12">
+          <h6>Featured Stories</h6>
+          <article class="">FS-1</article>
+          <article class="">FS-2</article>
+          <article class="">FS-3</article>
+          <article class="">FS-4</article>
+          <article class="">FS-5</article>
+          <article class="">FS-6</article>
+        </section>
+      </div>
+      <aside class="container-fluid col-lg-4 col-md-12 col-12">
+        <section id="opinion">
+          <h6>opinion</h6>
+          <article class="">O-1</article>
+          <article class="">O-2</article>
+          <article class="">O-3</article>
+          <article class="">O-4</article>
+          <article class="">O-5</article>
+          <article class="">O-6</article>
+        </section>
+        <section id="latest-news">
+          <h6>Latest news</h6>
+          <article class="">LN-1</article>
+          <article class="">LN-2</article>
+          <article class="">LN-3</article>
+          <article class="">LN-4</article>
+          <article class="">LN-5</article>
+          <article class="">LN-6</article>
+          <article class="">LN-7</article>
+          <article class="">LN-8</article>
+        </section>
+      </aside>
+    </main>
+    <section id="in-the-mag" class="container-fluid">
+      <div class="d-lg-flex container-fluid">
+        <section id="magazine" class="col-12 col-lg-3">magazine</section>
+        <div class="row col-12 col-lg-9 container-fluid">
+          <h4 class="col-12">in the magazine</h4>
+          <article class="col-12 col-lg-4">cover</article>
+          <article class="col-12 col-lg-4">downloads1</article>
+          <article class="col-12 col-lg-4">downloads2</article>
+        </div>
+      </div>
+      <div class="d-lg-flex container-fluid">
+        <article class="col-12 col-lg-3">downloads3</article>
+        <article class="col-12 col-lg-3">downloads4</article>
+        <article class="col-12 col-lg-3">downloads5</article>
+        <article class="col-12 col-lg-3">downloads6</article>
+      </div>
     </section>
     <section id="editors-pick">
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
+      <h4 class="col-12">Editors pick</h4>
+      <div class="row">
+        <article class="col-12 col-md-6 col-lg-3">edit1</article>
+        <article class="col-12 col-md-6 col-lg-3">edit2</article>
+        <article class="col-12 col-md-6 col-lg-3">edit3</article>
+        <article class="col-12 col-md-6 col-lg-3">edit4</article>
+      </div>
+      <div class="row">
+        <article class="col-12 col-md-6 col-lg-3">edit5</article>
+        <article class="col-12 col-md-6 col-lg-3">edit6</article>
+        <article class="col-12 col-md-6 col-lg-3">edit7</article>
+        <article class="col-12 col-md-6 col-lg-3">edit8</article>
+      </div>
     </section>
     <section id="featured-slide">
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
-      <article class=""></article>
+      <h4 class="col-12">featured slide</h4>
+      <div class="row">
+        <article class="col-12 col-md-4">slide1</article>
+        <article class="col-12 col-md-4">slide2</article>
+        <article class="col-12 col-md-4">slide3</article>
+      </div>
+      <div class="row">
+        <article class="col-12 col-md-4">slide4</article>
+        <article class="col-12 col-md-4">slide5</article>
+        <article class="col-12 col-md-4">slide6</article>
+      </div>
     </section>
-    <section id="US">
-      <article class=""></article>
-      <article class=""></article>
-      <aside class="">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
+    <section id="US" class="row">
+      <h5 class="col-12">US</h5>
+      <article class="col-12 col-md-4">US1</article>
+      <article class="col-12 col-md-4">US2</article>
+      <aside class="col-12 col-md-4">
+        <h6>US-Aside</h6>
+        <article class="col-12">US-Aside1</article>
+        <article class="col-12">US-Aside2</article>
+        <article class="col-12">US-Aside3</article>
       </aside>
     </section>
-    <section id="world">
-      <article class=""></article>
-      <article class=""></article>
-      <aside class="">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
+    <section id="World" class="row">
+      <h5 class="col-12">World</h5>
+      <article class="col-12 col-md-4">world1</article>
+      <article class="col-12 col-md-4">world2</article>
+      <aside class="col-12 col-md-4">
+        <h6>world-Aside</h6>
+        <article class="col-12">world-Aside1</article>
+        <article class="col-12">world-Aside2</article>
+        <article class="col-12">world-Aside3</article>
       </aside>
     </section>
-    <section id="business">
-      <article class=""></article>
-      <article class=""></article>
-      <aside class="">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
+    <section id="Business" class="row">
+      <h5 class="col-12">Business</h5>
+      <article class="col-12 col-md-4">Business1</article>
+      <article class="col-12 col-md-4">Business2</article>
+      <aside class="col-12 col-md-4">
+        <h6>Business-Aside</h6>
+        <article class="col-12">Business-Aside1</article>
+        <article class="col-12">Business-Aside2</article>
+        <article class="col-12">Business-Aside3</article>
       </aside>
     </section>
-    <section id="tech-science">
-      <article class=""></article>
-      <article class=""></article>
-      <aside class="">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
+    <section id="Tech-Science" class="row">
+      <h5 class="col-12">Tech-Science</h5>
+      <article class="col-12 col-md-4">Tech-Science1</article>
+      <article class="col-12 col-md-4">Tech-Science2</article>
+      <aside class="col-12 col-md-4">
+        <h6>Tech-Science-Aside</h6>
+        <article class="col-12">Tech-Science-Aside1</article>
+        <article class="col-12">Tech-Science-Aside2</article>
+        <article class="col-12">Tech-Science-Aside3</article>
       </aside>
     </section>
-    <section id="culture">
-      <article class=""></article>
-      <article class=""></article>
-      <aside class="">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
+    <section id="Culture" class="row">
+      <h5 class="col-12">Culture</h5>
+      <article class="col-12 col-md-4">Culture1</article>
+      <article class="col-12 col-md-4">Culture2</article>
+      <aside class="col-12 col-md-4">
+        <h6>Culture-Aside</h6>
+        <article class="col-12">Culture-Aside1</article>
+        <article class="col-12">Culture-Aside2</article>
+        <article class="col-12">Culture-Aside3</article>
       </aside>
     </section>
-    <section id="sports">
-      <article class=""></article>
-      <article class=""></article>
-      <aside class="">
-        <article class=""></article>
-        <article class=""></article>
-        <article class=""></article>
+    <section id="Sports" class="row">
+      <h5 class="col-12">Sports</h5>
+      <article class="col-12 col-md-4">Sports1</article>
+      <article class="col-12 col-md-4">Sports2</article>
+      <aside class="col-12 col-md-4">
+        <h6>Sports-Aside</h6>
+        <article class="col-12">Sports-Aside1</article>
+        <article class="col-12">Sports-Aside2</article>
+        <article class="col-12">Sports-Aside3</article>
       </aside>
     </section>
-    <section id="suscribe">
-      <article class=""></article>
-    </section>
-    <section id="newsletter">
-      <article class=""></article>
-    </section>
-    <footer></footer>
+    <aside class="row">
+      <section id="suscribe" class="col-12 col-lg-8">
+        <h6>Subscribe</h6>
+        <article class="">suscribe1</article>
+      </section>
+      <section id="newsletter" class="col-12 col-lg-4">
+        <h6>Newsletter</h6>
+        <article class="">newsletter1</article>
+      </section>
+    </aside>
+    <footer class="row">
+      <div class="col-12 col-md-3">
+        LOGO
+      </div>
+      <div class="col-12 col-md-7">
+        © 2019 NEWSWEEK
+      </div>
+      <ul class="nav nav-fill float-md-right col-3 col-md-2">
+        <li class="nav-item"><a href="#">S</a></li>
+        <li class="nav-item"><a href="#">O</a></li>
+        <li class="nav-item"><a href="#">C</a></li>
+        <li class="nav-item"><a href="#">I</a></li>
+        <li class="nav-item"><a href="#">AL</a></li>
+      </ul>
+      <ul class="nav nav-fill col-12 col-lg-6">
+        <li class="nav-item"><a href="#">About Us</a></li>
+        <li class="nav-item"><a href="#">Corrections</a></li>
+        <li class="nav-item"><a href="#">Contact Us</a></li>
+        <li class="nav-item"><a href="#">Editorial Guidelines</a></li>
+        <li class="nav-item"><a href="#">Advertise</a></li>
+        <li class="nav-item"><a href="#">Copyright</a></li>
+        <li class="nav-item"><a href="#">Terms & Conditions</a></li>
+        <li class="nav-item"><a href="#">Privacy Policy</a></li>
+        <li class="nav-item"><a href="#">Cookie Policy</a></li>
+        <li class="nav-item"><a href="#">Terms of Sale</a></li>
+        <li class="nav-item"><a href="#">Archive</a></li>
+        <li class="nav-item"><a href="#">Announcements</a></li>
+        <li class="nav-item"><a href="#">Consent preferences</a></li>
+      </ul>
+      <h6 class="col-3 col-lg-3 text-right">Editions:</h6>
+      <ul class="nav nav-fill col-9 col-lg-2">
+        <li class="nav-item"><a href="#">U.S. Edition</a></li>
+        <li class="nav-item"><a href="#">日本</a></li>
+        <li class="nav-item"><a href="#">한국</a></li>
+        <li class="nav-item"><a href="#">Pakistan</a></li>
+        <li class="nav-item"><a href="#">Polska</a></li>
+        <li class="nav-item"><a href="#">România</a></li>
+      </ul>
+      <div class="col-12 col-lg-1"></div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
