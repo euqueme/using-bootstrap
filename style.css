@@ -29,11 +29,47 @@ section,
 .col-10,
 .col-11,
 .flex-md-row-reverse * {
-  border: red 1px solid;
+  /*border: gray 1px solid;*/
   padding: 0;
   margin: 0;
+  background: white;
 }
 
-.nav-link {
-  padding: 0.5rem 0.5rem;
+body {
+  background: #f4f5f6;
 }
+
+.header-top {
+  height: 49px;
+}
+
+.bg-news {
+  background-color: #f72210 !important;
+}
+
+.logo {
+  background: url(img/logo.png) 50%/90% no-repeat;
+}
+
+.red-tab {
+  border-left: 12px solid white !important;
+  border-top: 13px solid #f72210 !important;
+}
+
+nav input {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 62%/20px
+    no-repeat white !important;
+}
+
+@media screen and (min-width: 992px) {
+  .header-top {
+    height: 95px !important;
+  }
+}
+
+/*-------------- Top Story ----------------------*/
+/*.TS-1 {
+  background: url(https://d.newsweek.com/en/full/1531608/donald-trump.jpg?w=591&h=364&f=2369ac43725b8ddaa41b48962cc1dbb3)
+    0 0/100% 75% no-repeat;
+  height: 500px;
+}*/
