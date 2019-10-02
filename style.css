@@ -33,6 +33,7 @@ section,
   padding: 0;
   margin: 0;
   background: white;
+  box-sizing: border-box;
 }
 
 body {
@@ -67,9 +68,48 @@ nav input {
   }
 }
 
-/*-------------- Top Story ----------------------*/
-/*.TS-1 {
-  background: url(https://d.newsweek.com/en/full/1531608/donald-trump.jpg?w=591&h=364&f=2369ac43725b8ddaa41b48962cc1dbb3)
-    0 0/100% 75% no-repeat;
-  height: 500px;
-}*/
+.category {
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.color-news {
+  color: #f72210;
+}
+
+.bg-light {
+  background: #f4f5f7 !important;
+}
+
+.bg-info {
+  background: #c2d4d7 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon-n {
+  flex: none;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) 90% 10%/28px
+    no-repeat #f72210;
+  height: 28px;
+}
+
+@media screen and (min-width: 922px) {
+  #magazine img {
+    height: 360px !important;
+  }
+
+  #in-the-mag article img {
+    height: 288px;
+  }
+
+  .big-shots div img {
+    height: 330px !important;
+  }
+}
