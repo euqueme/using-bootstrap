@@ -93,11 +93,8 @@ nav input {
   cursor: pointer;
 }
 
-.icon-n {
-  flex: none;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) 90% 10%/28px
-    no-repeat #f72210;
-  height: 28px;
+#in-the-mag article img {
+  object-fit: cover;
 }
 
 @media screen and (min-width: 922px) {
@@ -112,4 +109,19 @@ nav input {
   .big-shots div img {
     height: 330px !important;
   }
+}
+
+.red-slide {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  padding: 0 1px 1px 0;
+}
+
+.cat-slide {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    0 50%/75% no-repeat !important;
+}
+
+#featured-slide .category a {
+  right: 2.8rem;
 }
