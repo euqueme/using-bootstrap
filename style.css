@@ -41,6 +41,11 @@ body {
   background: #f4f5f6;
 }
 
+nav input {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 62%/20px
+    no-repeat white !important;
+}
+
 main p {
   font-size: 0.95em;
 }
@@ -49,52 +54,10 @@ footer a {
   font-size: 0.85em;
 }
 
-main #opinion p {
-  font-size: 0.75em;
-}
-
-main #latest-news h6 a,
-main #latest-news h5 a {
-  font-family: "Noto Sans", sans-serif;
-}
-
 main h5 a,
 main h6 a,
 header nav a {
   font-family: "M PLUS Rounded 1c", sans-serif;
-}
-
-header .nav-link:hover,
-aside a:hover {
-  color: red !important;
-  text-decoration: none;
-}
-
-main #culture-travel h5 a:hover {
-  background: #f4f5f7 !important;
-}
-
-header p a:hover,
-main #culture-travel a:hover {
-  text-decoration: none;
-}
-
-.category:hover,
-.category .color-news:hover {
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
-}
-
-.category .bg-news:hover {
-  text-decoration: none;
-  background: #f72210;
-  color: white;
-}
-
-footer a:hover {
-  color: black !important;
-  text-decoration: none;
 }
 
 .header-top {
@@ -114,9 +77,80 @@ footer a:hover {
   border-top: 13px solid #f72210 !important;
 }
 
-nav input {
-  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 62%/20px
-    no-repeat white !important;
+#fb a {
+  background: url(img/fb.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.7;
+}
+
+#tw a {
+  background: url(img/tweet.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.8;
+}
+
+#insta a {
+  background: url(img/insta.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.9;
+}
+
+#tum a {
+  background: url(img/tumblr.jpg) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.9;
+}
+
+#in a {
+  background: url(img/in.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.6;
+}
+
+#opinion p {
+  font-size: 0.75em;
+}
+
+#latest-news h6 a,
+#latest-news h5 a {
+  font-family: "Noto Sans", sans-serif;
+}
+
+footer a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+header .nav-link:hover,
+aside a:hover {
+  color: red !important;
+  text-decoration: none;
+}
+
+main #culture-travel h5 a:hover {
+  background: #f4f5f7 !important;
+}
+
+header p a:hover,
+main #culture-travel a:hover {
+  text-decoration: none;
+}
+
+#featured-slide .category a {
+  right: 2.8rem;
+}
+
+.category:hover,
+.category .color-news:hover {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.category .bg-news:hover {
+  text-decoration: none;
+  background: #f72210;
+  color: white;
 }
 
 @media screen and (min-width: 992px) {
@@ -184,10 +218,6 @@ nav input {
     0 50%/75% no-repeat !important;
 }
 
-#featured-slide .category a {
-  right: 2.8rem;
-}
-
 .newsl-img {
   background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf)
     center center / cover no-repeat;
@@ -201,34 +231,4 @@ nav input {
 
 .logo2 {
   background: url(img/logo2.png) 0 100%/95% no-repeat;
-}
-
-#fb a {
-  background: url(img/fb.png) 0 100%/70% no-repeat;
-  line-height: 3;
-  opacity: 0.7;
-}
-
-#tw a {
-  background: url(img/tweet.png) 0 100%/70% no-repeat;
-  line-height: 3;
-  opacity: 0.8;
-}
-
-#insta a {
-  background: url(img/insta.png) 0 100%/70% no-repeat;
-  line-height: 3;
-  opacity: 0.9;
-}
-
-#tum a {
-  background: url(img/tumblr.jpg) 0 100%/70% no-repeat;
-  line-height: 3;
-  opacity: 0.9;
-}
-
-#in a {
-  background: url(img/in.png) 0 100%/70% no-repeat;
-  line-height: 3;
-  opacity: 0.6;
 }
