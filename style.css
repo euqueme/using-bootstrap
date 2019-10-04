@@ -42,8 +42,7 @@ body {
 }
 
 nav input {
-  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 62%/20px
-    no-repeat white !important;
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 62%/20px no-repeat white !important;
 }
 
 main p {
@@ -58,6 +57,22 @@ main h5 a,
 main h6 a,
 header nav a {
   font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+footer a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+header .nav-link:hover,
+aside a:hover {
+  color: red !important;
+  text-decoration: none;
+}
+
+header p a:hover,
+main #culture-travel a:hover {
+  text-decoration: none;
 }
 
 .header-top {
@@ -116,26 +131,6 @@ header nav a {
   font-family: "Noto Sans", sans-serif;
 }
 
-footer a:hover {
-  color: black !important;
-  text-decoration: none;
-}
-
-header .nav-link:hover,
-aside a:hover {
-  color: red !important;
-  text-decoration: none;
-}
-
-main #culture-travel h5 a:hover {
-  background: #f4f5f7 !important;
-}
-
-header p a:hover,
-main #culture-travel a:hover {
-  text-decoration: none;
-}
-
 #featured-slide .category a {
   right: 2.8rem;
 }
@@ -151,12 +146,6 @@ main #culture-travel a:hover {
   text-decoration: none;
   background: #f72210;
   color: white;
-}
-
-@media screen and (min-width: 992px) {
-  .header-top {
-    height: 95px !important;
-  }
 }
 
 .category {
@@ -176,11 +165,6 @@ main #culture-travel a:hover {
   background: #f4f5f7 !important;
 }
 
-#in-the-mag .bg-light:hover {
-  text-decoration: none;
-  background-color: #dae0e5 !important;
-}
-
 .bg-info {
   background: #c2d4d7 !important;
 }
@@ -191,6 +175,44 @@ main #culture-travel a:hover {
 
 #in-the-mag article img {
   object-fit: cover;
+}
+
+.red-slide {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  padding: 0 1px 1px 0;
+}
+
+.cat-slide {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 50%/75% no-repeat !important;
+}
+
+.newsl-img {
+  background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf) center center / cover no-repeat;
+}
+
+.subs-img {
+  background: url(https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=170&q=95&f=9ebb28c380cf4a6557a4cf4d18d55d2a) 25% 20% / 170px 227px no-repeat;
+  height: 265px;
+}
+
+.logo2 {
+  background: url(img/logo2.png) 0 100%/95% no-repeat;
+}
+
+#in-the-mag .bg-light:hover {
+  text-decoration: none;
+  background-color: #dae0e5 !important;
+}
+
+#culture-travel h5 a:hover {
+  background: #f4f5f7 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .header-top {
+    height: 95px !important;
+  }
 }
 
 @media screen and (min-width: 922px) {
@@ -205,30 +227,4 @@ main #culture-travel a:hover {
   .big-shots div img {
     height: 330px !important;
   }
-}
-
-.red-slide {
-  border-bottom: 3px solid red;
-  border-right: 3px solid red;
-  padding: 0 1px 1px 0;
-}
-
-.cat-slide {
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
-    0 50%/75% no-repeat !important;
-}
-
-.newsl-img {
-  background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf)
-    center center / cover no-repeat;
-}
-
-.subs-img {
-  background: url(https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=170&q=95&f=9ebb28c380cf4a6557a4cf4d18d55d2a)
-    25% 20% / 170px 227px no-repeat;
-  height: 265px;
-}
-
-.logo2 {
-  background: url(img/logo2.png) 0 100%/95% no-repeat;
 }
