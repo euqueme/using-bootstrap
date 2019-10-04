@@ -29,15 +29,72 @@ section,
 .col-10,
 .col-11,
 .flex-md-row-reverse * {
-  /*border: gray 1px solid;*/
   padding: 0;
   margin: 0;
   background: white;
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.25;
 }
 
 body {
   background: #f4f5f6;
+}
+
+main p {
+  font-size: 0.95em;
+}
+
+footer a {
+  font-size: 0.85em;
+}
+
+main #opinion p {
+  font-size: 0.75em;
+}
+
+main #latest-news h6 a,
+main #latest-news h5 a {
+  font-family: "Noto Sans", sans-serif;
+}
+
+main h5 a,
+main h6 a,
+header nav a {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+header .nav-link:hover,
+aside a:hover {
+  color: red !important;
+  text-decoration: none;
+}
+
+main #culture-travel h5 a:hover {
+  background: #f4f5f7 !important;
+}
+
+header p a:hover,
+main #culture-travel a:hover {
+  text-decoration: none;
+}
+
+.category:hover,
+.category .color-news:hover {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.category .bg-news:hover {
+  text-decoration: none;
+  background: #f72210;
+  color: white;
+}
+
+footer a:hover {
+  color: black !important;
+  text-decoration: none;
 }
 
 .header-top {
@@ -85,6 +142,11 @@ nav input {
   background: #f4f5f7 !important;
 }
 
+#in-the-mag .bg-light:hover {
+  text-decoration: none;
+  background-color: #dae0e5 !important;
+}
+
 .bg-info {
   background: #c2d4d7 !important;
 }
@@ -124,4 +186,49 @@ nav input {
 
 #featured-slide .category a {
   right: 2.8rem;
+}
+
+.newsl-img {
+  background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf)
+    center center / cover no-repeat;
+}
+
+.subs-img {
+  background: url(https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=170&q=95&f=9ebb28c380cf4a6557a4cf4d18d55d2a)
+    25% 20% / 170px 227px no-repeat;
+  height: 265px;
+}
+
+.logo2 {
+  background: url(img/logo2.png) 0 100%/95% no-repeat;
+}
+
+#fb a {
+  background: url(img/fb.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.7;
+}
+
+#tw a {
+  background: url(img/tweet.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.8;
+}
+
+#insta a {
+  background: url(img/insta.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.9;
+}
+
+#tum a {
+  background: url(img/tumblr.jpg) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.9;
+}
+
+#in a {
+  background: url(img/in.png) 0 100%/70% no-repeat;
+  line-height: 3;
+  opacity: 0.6;
 }
