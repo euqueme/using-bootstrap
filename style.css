@@ -70,11 +70,6 @@ aside a:hover {
   text-decoration: none;
 }
 
-header p a:hover,
-#culture-travel a:hover {
-  text-decoration: none;
-}
-
 .header-top {
   height: 49px;
 }
@@ -187,6 +182,11 @@ header p a:hover,
   background: url(img/logo2.png) 0 100%/95% no-repeat;
 }
 
+header p a:hover,
+#culture-travel a:hover {
+  text-decoration: none;
+}
+
 #in-the-mag .bg-light:hover {
   text-decoration: none;
   background-color: #dae0e5 !important;
@@ -216,15 +216,14 @@ header p a:hover,
 }
 
 @media screen and (min-width: 922px) {
+  .big-shots div img {
+    height: 330px !important;
+  }
   #magazine img {
     height: 360px !important;
   }
 
   #in-the-mag article img {
     height: 288px;
-  }
-
-  .big-shots div img {
-    height: 330px !important;
   }
 }
