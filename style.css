@@ -74,6 +74,11 @@ header p a:hover {
   text-decoration: none;
 }
 
+.dropown-item a:hover,
+.dropown-item h5:hover {
+  color: white !important;
+}
+
 .header-top {
   height: 49px;
 }
@@ -225,25 +230,20 @@ header p a:hover {
 }
 
 .dropdown span:nth-of-type(3n):focus {
-  display:none;
+  display: none;
 }
 
 .dropown-item:hover {
-  background: black!important;
-}
-
-.dropown-item a:hover,
-.dropown-item h5:hover {
-  color: white!important;
+  background: black !important;
 }
 
 .bg-warning {
-  background: #fb9a94!important;
+  background: #fb9a94 !important;
 }
 
 @media screen and (min-width: 320px) {
   .arrow-appear {
-    display: inline-block!important;
+    display: inline-block !important;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
