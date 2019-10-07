@@ -41,7 +41,7 @@ body {
   background: #f4f5f6;
 }
 
-nav input {
+input {
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) 62%/20px no-repeat white !important;
 }
 
@@ -55,7 +55,7 @@ footer a {
 
 main h5 a,
 main h6 a,
-header nav a {
+header ul a {
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
@@ -186,6 +186,10 @@ header p a:hover {
   background: url(img/logo2.png) 0 100%/95% no-repeat;
 }
 
+.dropdown-toggle::after {
+  content: none!important;
+}
+
 #culture-travel a:hover {
   text-decoration: none;
 }
@@ -210,6 +214,39 @@ header p a:hover {
   text-decoration: none;
   background: #f72210;
   color: white;
+}
+
+#span-1:focus {
+  transform: rotate(45deg);
+}
+
+.dropdown span:nth-of-type(2n):focus {
+  transform: rotate(135deg);
+}
+
+.dropdown span:nth-of-type(3n):focus {
+  display:none;
+}
+
+.dropown-item:hover {
+  background: black!important;
+}
+
+.dropown-item a:hover,
+.dropown-item h5:hover {
+  color: white!important;
+}
+
+.bg-warning {
+  background: #fb9a94!important;
+}
+
+@media screen and (min-width: 320px) {
+  .arrow-appear {
+    display: inline-block!important;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
 }
 
 @media screen and (min-width: 992px) {
