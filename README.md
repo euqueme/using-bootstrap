@@ -47,8 +47,10 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Live Version](#live-version)
-* [Contact](#contact)
+* [Usage](#usage)
+* [Automated Test](#automated-test)
+* [Author](#author)
+* [Contributing](#contributing)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
@@ -76,17 +78,40 @@ This project was built using these technologies.
 * Notepad++
 * Prettier 
 
+## Usage
+
+If you want to use it locally [download](https://github.com/euqueme/using-bootstrap/archive/master.zip) or clone the repo with the following command on a linux terminal:
+
+```git clone https://github.com/euqueme/using-bootstrap.git```
+
+cd to the projects directory and open the index.html in your browser
+
+![screenshot](img/bootstrap-mockup.png)
+
 <!-- LIVE VERSION -->
 ## Live version
 
-You can see it here:  https://euqueme.github.io/using-bootstrap/
+You can see it [here](https://euqueme.github.io/using-bootstrap/)
+
+<!-- AUTOMATED TEST -->
+## Automated Test
+
+> There are no Automated Test for this project yet
 
 <!-- CONTACT -->
-## Contact
+## Author
 
-María Eugenia Quemé - [@MaruKK](https://twitter.com/MaruKK) - [@euqueme](https://github.com/euqueme) - euqueme@gmail.com
+👤 María Eugenia Quemé - [@MaruKK](https://twitter.com/MaruKK) - [@euqueme](https://github.com/euqueme) - euqueme@gmail.com
 
-Project Link: [https://github.com/euqueme/using-bootstrap)
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/euqueme/using-bootstrap/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
